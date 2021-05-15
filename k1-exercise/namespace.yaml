@@ -1,0 +1,6 @@
+# Create a namespace for your exercises
+# Replace <initials> with your name or unique initial
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: <initials>

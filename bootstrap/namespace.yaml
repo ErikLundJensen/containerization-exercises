@@ -1,0 +1,17 @@
+# Create a namespace for your exercises
+# Replace <initials> with your name or unique initial
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: erik
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: public-ingress
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: external-dns
+--- 

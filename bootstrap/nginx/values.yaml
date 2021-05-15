@@ -1,0 +1,6 @@
+controller:
+  service:
+    annotations:
+      external-dns.alpha.kubernetes.io/hostname: containerization-demo.site
+  publishService:
+    enabled: true
